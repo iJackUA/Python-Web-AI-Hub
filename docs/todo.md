@@ -1,7 +1,8 @@
 # Tasks
 
 - [x] Setup Django project skeleton with Pyenv + Poetry (SQLite DB for start) + requirements.txt auto generation <https://github.com/Ddedalus/poetry-auto-export>
-- [ ] Create basic models (Account app): User, Organization, OrganizationUser
+- [x] Add reading env file in settings.py
+- [x] Create basic models (Account app): User, Organization, OrganizationUser
 - [ ] Add DB seed for models <https://github.com/Brobin/django-seed>
 - [ ] Create CRUD for Contexts
 - [ ] Create CRUD for Website
@@ -51,8 +52,8 @@
   - [ ] Sending confirmation emails + Mailcatcher
   - [ ] CRUD Organizations
   - [ ] CRUD Users in Organizations, Leave Org
-  - [ ] User profile update
-  - [ ] Org profile update
+  - [ ] User profile update + avatar management
+  - [ ] Org profile update + logo management
   - [ ] Permissions check to access only pages owned by Org you are member
 - [ ] Audit microservice (Flask)
   - [ ] Flask microservice with basic HTTP endpoint

@@ -14,6 +14,8 @@
 - `curl -sSL https://install.python-poetry.org | python3 -`
 - `poetry self add poetry-auto-export && poetry self add poetry-plugin-export` [add Poetry plugins for requirements.txt autoexport](https://github.com/Ddedalus/poetry-auto-export)
 - `poetry install` install dependencies
+- create `.env` file as a copy of `.env.example` and set parameters there
+- `poetry run python manage.py migrate` setup database
 
 ### Running web app
 
@@ -21,5 +23,7 @@
 
 ## Useful commands
 
+- `poetry run python manage.py startapp app_name`
 - `poetry add pendulum` || `poetry add pendulum@~2.0.5` add package (latests || fixed versions)
 - `poetry export -f requirements.txt --output requirements.txt` manual export dependencies
+- `poetry run python manage.py makemigrations`
