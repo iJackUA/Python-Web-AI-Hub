@@ -12,6 +12,8 @@ python = "^3.12"
 django = "^5.0.4"
 pillow = "^10.3.0"
 environs = {extras = ["django"], version = "^11.0.0"}
+factory-boy = "^3.3.0"
+faker = "^24.7.1"
 
 [tool.poetry.dev-dependencies]
 

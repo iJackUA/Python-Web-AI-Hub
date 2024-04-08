@@ -3,18 +3,18 @@
 - [x] Setup Django project skeleton with Pyenv + Poetry (SQLite DB for start) + requirements.txt auto generation <https://github.com/Ddedalus/poetry-auto-export>
 - [x] Add reading env file in settings.py
 - [x] Create basic models (Account app): User, Organization, OrganizationUser
-- [ ] Add DB seed for models <https://github.com/Brobin/django-seed>
-- [ ] Create CRUD for Contexts
-- [ ] Create CRUD for Website
+- [x] Add DB seed for models <https://github.com/Brobin/django-seed>
+- [ ] Create CRUD for Contexts with Django ready-made views List/Details-Views
+- [ ] Create CRUD for Website with custom views (TemplatedView)
 - [ ] Add Website scrapping functionality <https://www.crummy.com/software/BeautifulSoup/bs4/doc/>  (with depth limit and total pages per site limit - not to blow up the internet), maybe use Scrapy <https://alioguzhan.medium.com/how-to-use-scrapy-with-django-application-c16fabd0e62e>
 - [ ] Add WebSite ScrappedPage content extraction with <https://github.com/buriy/python-readability>
 - [ ] Add Celery workers (+ Redis) for Scrapping and Content Extraction
 - [ ] Add Celery UI
+- [ ] Add overmind + Procfile to run all processes
 - [ ] Add Celery Beat for periodic rescrapping new pages from the site
 - [ ] Add WebSockets and realtime Scrapping progress indicator on WebSite page <https://channels.readthedocs.io/en/stable/>
 - [ ] WebSockets can receive command to Start/Stop/Pause scrapping
 - [ ] Add esbuild + npm + TablerUI <https://tabler.io/preview> to basic layout
-- [ ] Add overmind + Procfile to run all processes
 - [ ] Style existing CRUD pages with TablerUI
 - [ ] Add Docker + Compose + VSCode Remote Container (switch to Container local development)
 - [ ] Add PGVector DB into Dockerized setup, switch Django to PG
