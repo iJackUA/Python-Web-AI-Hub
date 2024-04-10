@@ -16,6 +16,7 @@ factory-boy = "^3.3.0"
 faker = "^24.7.1"
 django-watchfiles = "^0.1.1"
 django-browser-reload = "^1.12.1"
+django-debug-toolbar = "^4.3.0"
 
 [tool.poetry.dev-dependencies]
 

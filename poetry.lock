@@ -107,6 +107,21 @@ files = [
 ]
 
 [[package]]
+name = "django-debug-toolbar"
+version = "4.3.0"
+description = "A configurable set of panels that display various debug information about the current request/response."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "django_debug_toolbar-4.3.0-py3-none-any.whl", hash = "sha256:e09b7dcb8417b743234dfc57c95a7c1d1d87a88844abd13b4c5387f807b31bf6"},
+    {file = "django_debug_toolbar-4.3.0.tar.gz", hash = "sha256:0b0dddee5ea29b9cb678593bc0d7a6d76b21d7799cb68e091a2148341a80f3c4"},
+]
+
+[package.dependencies]
+django = ">=3.2.4"
+sqlparse = ">=0.2"
+
+[[package]]
 name = "django-watchfiles"
 version = "0.1.1"
 description = "Use watchfiles in Django’s autoreloader."
@@ -481,4 +496,4 @@ anyio = ">=3.0.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "bb34be6732f1eafa096c45e202a32b3e59f750b1413b25743e805f95b1b80b81"
+content-hash = "8206b712f9b395541d0fa47c2d59241d57ac487dcd5ac63842b0faa2badb5980"
